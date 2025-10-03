@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  green-ai-app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    volumes:
+      # Optionnel: monter le CSV en lecture seule si vous voulez le modifier sans rebuild
+      - ./green Ai - Unpivoted (1).csv:/app/green Ai - Unpivoted (1).csv:ro
+    restart: unless-stopped
+    container_name: green-ai-streamlit
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s

@@ -1,0 +1,91 @@
+question_id,question_categorie,categorie_model,model A,model B,token A,token B,time A (sec),time B (sec),score A,score B,cost A (€),cost B (€),electricity A (wh),electricity B (wh),co2 A (g),co2 B (g)
+1,easy factual,small,llama,gemma,62,47,1,1,5,5,,,"0,17","0,25",0.10,"0,15"
+2,easy factual,small,llama,gemma,261,270,1,1,5,5,,,"0,98","0,87","0,61","0,53"
+3,easy factual,small,llama,gemma,196,226,3,3,5,5,,,"0,74","0,72","0,45","0,45"
+4,easy factual,small,gemma,llama,468,490,5,5,5,5,,,"1,5","1,85","0,93","1,14"
+5,easy factual,small,llama,gemma,80,72,0,0,5,5,,,"0,3","0,23","0,19","0,14"
+6,easy factual,small,gemma,llama,946,427,19,7,5,5,,,3,"1,61","1,87","0,99"
+7,easy factual,small,gemma,llama,92,102,1,1,5,5,,,"0,29","0,38","0,18","0,24"
+8,easy factual,small,gemma,llama,549,443,7,6,5,4,,,"1,76","1,67","1,09","1,03"
+9,easy factual,small,llama,gemma,55,204,1,3,5,5,,,"0,21","0,65","0,13","0,4"
+10,Reasoning & quantitative,small,llama,gemma,185,,3,6,3,2,,,"0,7","0,92","0,43","0,57"
+11,Reasoning & quantitative,small,llama,gemma,659,528,12,12,5,1,,,2,"1,69","1,53","1,04"
+12,Reasoning & quantitative,small,gemma,llama,401,370,5,7,5,5,,,"1,29","1,39","0,79","0,86"
+13,Reasoning & quantitative,small,llama,gemma,247,397,5,8,1,1,,,"0,93","1,27","0,57","0,78"
+14,Reasoning & quantitative,small,llama,gemma,251,229,4,4,2,5,,,"0,95","0,73","0,58","0,45"
+15,Programming & debugging ,small,llama,gemma,253,342,4,8,5,5,,,"0,95","1,1","0,59","0,68"
+16,Programming & debugging ,small,llama,gemma,307,611,5,12,4,5,,,"1,16","1,96",71,"1,21"
+17,Programming & debugging ,small,gemma,llama,161,253,6,6,5,5,,,"0,52","0,95","0,32","0,59"
+18,Programming & debugging ,small,gemma,llama,946,314,26,8,5,5,,,3,"1,18","1,87","0,73"
+19,Programming & debugging ,small,llama,gemma,957,,25,35,4,5,,,4,4,2,3
+20,Programming & debugging ,small,llama,gemma,603,967,19,27,3,5,,,2,3,"1,4","1,91"
+21,Harder knowledge & reasoning,small,llama,gemma,520,816,12,19,3,4,,,"1,96",3,"1,21","1,61"
+22,Harder knowledge & reasoning,small,llama,gemma,623,2147,18,23,4,5,,,2,7,"1,44",4
+23,Harder knowledge & reasoning,small,gemma,llama,3089,3182,10,10,0,0,,,10,12,6,7
+24,Harder knowledge & reasoning,small,llama,gemma,1675,2166,18,20,4,5,,,6,7,4,4
+25,Harder knowledge & reasoning,small,gemma,llama,861,592,10,9,5,3,,,3,2,"1,7","1,37"
+26,Advanced ,small,gemma,llama,1982,939,11,12,3,5,,,6,4,4,2
+27,Advanced ,small,gemma,llama,368,491,7,8,3,5,,,"1,18","1,85","0,73","1,14"
+28,Advanced ,small,gemma,llama,257,420,7,8,4,4,,,"0,82","1,58","0,51","0,97"
+29,Advanced ,small,gemma,llama,1136,755,20,17,5,5,,,4,3,2,"1,75"
+30,Advanced ,small,llama,gemma,543,628,12,14,4,5,,,2,2,"1,31","1,24"
+1,easy factual,medium,GPT OSS-20B,mistral,93,127,1,0,5,5,,,"0,29","0,76","0,18","0,47"
+2,easy factual,medium,mistral,GPT OSS-20B,273,356,2,2,5,5,,,"1,64","1,09","1,01","0,69"
+3,easy factual,medium,mistral,GPT OSS-20B,616,208,4,4,5,5,,,4,"0,64",2,"0,39"
+4,easy factual,medium,mistral,GPT OSS-20B,314,984,4,7,5,4,,,"1,89",3,"1,16","1,86"
+5,easy factual,medium,GPT OSS-20B,mistral,165,84,1,0,5,5,,,"0,51","0,51","0,31","0,31"
+6,easy factual,medium,mistral,GPT OSS-20B,411,271,2,7,5,5,,,2,"0,83","1,52","0,51"
+7,easy factual,medium,GPT OSS-20B,mistral,46,113,3,3,5,5,,,"0,14","0,78","0,09","0,48"
+8,easy factual,medium,mistral,GPT OSS-20B,543,516,7,7,4,5,,,3,"1,58",2,"0,98"
+9,easy factual,medium,mistral,GPT OSS-20B,112,196,1,1,5,5,,,"0,67","0,6","0,41","0,37"
+10,Reasoning & quantitative,medium,GPT OSS-20B,mistral,185,225,3,3,3,4,,,"0,57","1,35","0,35","0,86"
+11,Reasoning & quantitative,medium,GPT OSS-20B,mistral,1561,1631,31,31,1,5,,,5,10,3,6
+12,Reasoning & quantitative,medium,GPT OSS-20B,mistral,444,556,11,11,5,5,,,"1,36",3,"0,84",2
+13,Reasoning & quantitative,medium,GPT OSS-20B,mistral,485,554,16,16,1,1,,,"1,49",3,"0,92",2
+14,Reasoning & quantitative,medium,GPT OSS-20B,mistral,83,258,10,7,4,5,,,"0,25","1,55","0,16","0,95"
+15,Programming & debugging ,medium,mistral,GPT OSS-20B,423,374,14,16,5,5,,,3,"1,15","1,56","0,71"
+16,Programming & debugging ,medium,GPT OSS-20B,mistral,78,247,5,5,5,5,,,"0,24","1,49","0,15","0,91"
+17,Programming & debugging ,medium,mistral,GPT OSS-20B,236,158,4,4,5,5,,,"1,42","0,48","0,87","0,3"
+18,Programming & debugging ,medium,mistral,GPT OSS-20B,717,287,8,8,4,5,,,4,"0,88",3,"0,54"
+19,Programming & debugging ,medium,GPT OSS-20B,mistral,980,601,60,40,4,3,,,3,4,"1,85",2
+20,Programming & debugging ,medium,mistral,GPT OSS-20B,453,496,10,17,4,5,,,3,"1,52","1,67","0,97"
+21,Harder knowledge & reasoning,medium,mistral,GPT OSS-20B,449,153,23,15,5,5,,,3,"0,47","1,66","0,29"
+22,Harder knowledge & reasoning,medium,GPT OSS-20B,mistral,215,870,35,30,5,4,,,"0,66",5,"0,41",3
+23,Harder knowledge & reasoning,medium,mistral,GPT OSS-20B,3140,2981,5,7,0,0,,,19,9,12,6
+24,Harder knowledge & reasoning,medium,GPT OSS-20B,mistral,894,980,37,42,3,4,,,3,6,"1,69",4
+25,Harder knowledge & reasoning,medium,GPT OSS-20B,mistral,528,583,17,19,5,5,,,"1,62",4,1,2
+26,Advanced ,medium,GPT OSS-20B,mistral,547,1017,17,15,4,4,,,"1,68",6,"1,03",4
+27,Advanced ,medium,mistral,GPT OSS-20B,349,77,7,8,5,4,,,2,"0,24","1,29","0,15"
+28,Advanced ,medium,mistral,GPT OSS-20B,229,127,5,8,5,5,,,"1,38","0,39","0,84","0,24"
+29,Advanced ,medium,mistral,GPT OSS-20B,725,647,7,13,4,5,,,4,"1,98",3,"1,22"
+30,Advanced ,medium,GPT OSS-20B,mistral,331,419,3,5,5,5,,,1,3,"0,63","1,54"
+1,easy factual,large,gpt5,deepseek,39,310,3,3,5,5,,,2,15,"1,46",9
+2,easy factual,large,deepseek,gpt5,573,287,3,3,5,5,,,25,18,15,11
+3,easy factual,large,deepseek,gpt5,904,672,17,28,5,5,,,43,41,26,25
+4,easy factual,large,deepseek,gpt5,1207,191,12,5,4,5,,,57,12,35,7
+5,easy factual,large,deepseek,gpt5,266,272,3,7,5,5,,,13,17,8,10
+6,easy factual,large,gpt5,deepseek,254,735,18,38,5,5,,,16,35,10,21
+7,easy factual,large,deepseek,gpt5,268,105,2,2,5,5,,,13,6,8,4
+8,easy factual,large,gpt5,deepseek,509,808,14,14,5,5,,,31,38,19,23
+9,easy factual,large,gpt5,deepseek,256,546,14,14,4,5,,,16,26,10,16
+10,Reasoning & quantitative,large,gpt5,deepseek,30,453,0,15,5,4,,,"1,84",21,"1,12",13
+11,Reasoning & quantitative,large,gpt5,deepseek,297,2436,8,82,5,5,,,18,115,11,70
+12,Reasoning & quantitative,large,gpt5,deepseek,355,2248,16,28,5,5,,,22,106,13,65
+13,Reasoning & quantitative,large,deepseek,gpt5,1460,777,35,37,1,1,,,69,48,42,29
+14,Reasoning & quantitative,large,gpt5,deepseek,249,562,10,11,5,4,,,15,26,9,16
+15,Programming & debugging ,large,gpt5,deepseek,381,740,10,10,5,5,,,23,35,14,21
+16,Programming & debugging ,large,gpt5,deepseek,269,869,6,14,5,5,,,17,39,10,24
+17,Programming & debugging ,large,deepseek,gpt5,421,234,5,12,5,5,,,20,14,12,9
+18,Programming & debugging ,large,deepseek,gpt5,1774,489,16,20,5,5,,,83,30,51,18
+19,Programming & debugging ,large,deepseek,gpt5,2730,802,50,35,5,5,,,128,49,79,30
+20,Programming & debugging ,large,deepseek,gpt5,1197,389,9,9,5,5,,,56,24,34,15
+21,Harder knowledge & reasoning,large,deepseek,gpt5,334,542,30,30,5,5,,,16,33,10,20
+22,Harder knowledge & reasoning,large,deepseek,gpt5,1032,535,22,55,5,5,,,49,33,30,20
+23,Harder knowledge & reasoning,large,deepseek,gpt5,3396,3289,20,20,3,3,,,160,202,98,123
+24,Harder knowledge & reasoning,large,gpt5,deepseek,503,917,72,30,4,4,,,31,43,19,26
+25,Harder knowledge & reasoning,large,gpt5,deepseek,631,675,30,19,5,5,,,39,32,24,19
+26,Advanced ,large,deepseek,gpt5,592,151,25,50,4,4,,,28,9,17,6
+27,Advanced ,large,deepseek,gpt5,756,737,18,29,4,5,,,36,45,22,28
+28,Advanced ,large,deepseek,gpt5,586,583,14,20,5,5,,,28,36,17,22
+29,Advanced ,large,deepseek,gpt5,852,515,24,28,4,5,,,40,32,25,19
+30,Advanced ,large,gpt5,deepseek,749,604,33,30,5,5,,,46,28,28,17
